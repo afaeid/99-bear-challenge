@@ -1,11 +1,12 @@
 body {
-    font-size: 15pt;
+ font-size: 15pt;
 }
 
-.verse{
+.verse {
  display: block;
  margin: 10px 10px;
 }
-.word-element{
+
+.word-element {
  display: inline-block;
 }
