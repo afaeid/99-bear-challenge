@@ -1,5 +1,5 @@
 var verseShower = document.querySelector(".verse-shower");
-var remainBears = 99;
+var totalBears = 99;
 var i;
 
 const delay = (ms) => {
@@ -7,7 +7,7 @@ const delay = (ms) => {
 }
 
 const displayVerse = async () => {
- for (i = remainBears; i >= 0; i--) {
+ for (i = totalBears; i >= 0; i--) {
 
   var bottleStatus = i > 1 ? "bottles" : "bottle";
   var remainBottleStatus = i - 1 > 1 ? "bottles" : "bottle";
